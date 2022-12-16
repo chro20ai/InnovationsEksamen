@@ -186,9 +186,6 @@ for ( let i = 0 ; finalarray.length !== 0 ; i++ ){
  //Nu skubbes billederne ind i den korrekte rækkefølge
       return newuserarray.map((item, i) =>  
       {
-        //console.log(i)
-        //console.log(this.state.currentIndex)
-        //console.log("item.id: "+item.id)
         
         if (i < this.state.currentIndex) {
           return null
@@ -199,7 +196,6 @@ for ( let i = 0 ; finalarray.length !== 0 ; i++ ){
           swipeindexarray.forEach(element => {swipeidarray.push(finalarray2[element])})
           
           swipeindexarray = []
-          //console.log(item)
           return (
             <Animated.View
             // her tilføjes animationen til kun det første index

@@ -14,8 +14,6 @@ const RecipesList = ({navigation}) => {
 
     const [recipes,setrecipes] = useState()
     const isFocused = useIsFocused()
-console.log(recipes)
-
     useEffect(() => {
         if(!recipes) {
             firebase

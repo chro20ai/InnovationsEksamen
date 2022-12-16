@@ -6,7 +6,6 @@ import {useEffect, useState} from "react";
 let array = []
 const Instructions = ({route}) => {
     const [recipe,setrecipe] = useState();
-console.log(route.params)
     useEffect(() => {
         // Henter recipe values fra databasen
         if(!recipe){

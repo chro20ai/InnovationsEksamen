@@ -34,7 +34,6 @@ const BarCodeComponent = ({navigation, route}) => {
   const handleBarCodeScanned = ({ type, data }) => {
     setScanned(true);
     setText(data)
-    console.log('Type: ' + type + '\nData: ' + data)
     try{var index = Object.keys(barcode).findIndex(element => element == data)
 var Item = Object.values(barcode)[index].name}
 //Hvis barcode ikke er oprettet

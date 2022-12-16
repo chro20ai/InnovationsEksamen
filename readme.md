@@ -1,7 +1,10 @@
 Installationsvejledning:
 
-For at køre programmet skal følgende køres i terminalen:
-npx expo install expo-status-bar react-native react react-native-paper firebase react-native-gesture-handler react-native-vector-icons
+For at køre programmet skal følgende to linjer køres i terminalen:
+
+npm i expo
+
+npx expo install expo-status-bar react-native react react-native-paper firebase react-native-gesture-handler react-native-vector-icons expo-barcode-scanner
 
 Koden er nu funktionel og klar til brug. Indtast følgende i terminalen for at starte applikationen:
 npm start
